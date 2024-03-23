@@ -3,3 +3,5 @@ async function traerPagina(){
     const datos = await pagina.json();
     console.log(datos);
 }
+
+traerPagina();
